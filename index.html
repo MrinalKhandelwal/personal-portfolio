@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="style.css">
     <title>Mrinal Khandelwal | Portfolio</title>
 </head>
 
@@ -13,7 +13,7 @@
         <h1>Mrinal Khandelwal</h1>
         <p>Web Developer | Programmer | Learner</p>
 
-        <nav aria-label="Main Navigation">
+        <nav class="navbar" aria-label="Main Navigation">
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
@@ -27,10 +27,10 @@
             <h2>About Me</h2>
 
             <img
-                src="profile.jpg"
-                alt="Portrait of Mrinal Khandelwal"
-                width="200"
-            >
+            src="images/profile.jpeg"
+            alt="Portrait of Mrinal Khandelwal"
+            class="profile-image"
+        >
 
             <p>
                 Hello! I am Mrinal Khandelwal, a web development enthusiast
@@ -69,8 +69,9 @@
         <section id="projects">
             <h2>My Projects</h2>
 
-            <article>
+            <article class="project-card">
                 <h3>Personal Portfolio</h3>
+
                 <p>
                     A personal portfolio website showcasing my skills,
                     projects, and contact information.
@@ -80,6 +81,7 @@
                     href="https://github.com/"
                     target="_blank"
                     rel="noopener noreferrer"
+                    class="project-link"
                 >
                     View on GitHub
                 </a>
@@ -152,7 +154,7 @@
 
                 <br>
 
-                <button type="submit">Send Message</button>
+                <button type="submit" class="submit-btn">Send Message</button>
 
             </form>
         </section>
